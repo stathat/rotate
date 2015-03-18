@@ -1,2 +1,8 @@
 # rotate
-io.Writer that automatically rotates files
+
+go get [-u] github.com/stathat/rotate
+
+http://godoc.org/github.com/stathat/rotate
+
+
+
