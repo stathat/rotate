@@ -17,7 +17,7 @@ import (
 )
 
 const (
-	maxDefault  = 1024 * 1024 * 96
+	maxDefault  = 1024 * 1024 * 8
 	keepDefault = 10
 )
 
