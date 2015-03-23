@@ -3,7 +3,7 @@
 // It will also only keep a fixed number of files.
 // It can be used anywhere an io.Writer is used, for example in
 // log.SetOutput().
-package rotate
+package rotate // import "stathat.com/c/rotate"
 
 import (
 	"errors"
