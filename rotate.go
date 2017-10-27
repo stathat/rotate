@@ -143,6 +143,7 @@ func (r *Writer) clean() error {
 	if err != nil {
 		return err
 	}
+	defer d.Close()
 	names, err := d.Readdirnames(1024)
 	if err != nil {
 		return err
